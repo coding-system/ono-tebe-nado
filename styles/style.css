@@ -1,1 +1,6 @@
-/* место для вашего кода */
+@import url('global.css');
+
+h1 {
+    color: palevioletred;
+}
+
