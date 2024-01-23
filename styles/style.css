@@ -3,7 +3,7 @@
 
 /*--------------Styles---------------*/
 body {
-    /* background-color: #9c9c9c; */
+    background-color: #9c9c9c;
 }
 
 .container {
@@ -16,7 +16,6 @@ body {
     margin-top: 88px;
     height: 105px;
     margin-left: 24px;
-    margin-top: 44px;
     align-items: center;
 }
 
@@ -93,7 +92,7 @@ body {
 }
 
 .cover-bg {
-    display: flex;
+    
     width: 1100px;
     height: 757px;
     margin-top: 150px;
@@ -109,11 +108,14 @@ body {
     background-color: rgb(0 0 0 /.6);
 }
 
-.main-title {
+.cover-box {
     width: 1000px;
-    height: 335px;
     padding-top: 160px;
     margin: 0 auto;
+}
+
+.main-title {
+    height: 335px;
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -122,25 +124,78 @@ body {
     font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 40px;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    cursor: default;
 }
 
 .main-title-part1 {
     align-self: start;
+    padding-bottom: 8px;
 
 }
 
 .main-title-part2 {
     align-self: center;
+    padding-bottom: 8px;
 }
 
 .main-title-part3 {
     align-self: end;
+    padding-bottom: 8px;
+    position: relative; /*   Это чтобы убрать пустое пространство после слова "НАДО"*/
+    left: 50px; /*   Из-за него. Слово сстоит не около края .cover-box*/
+    
+}
+
+.bottom-bar {
+    display: flex;
+    padding-top: 149px;
+    padding-left: 28px;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .slogan {
     color: #fff;
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    
+    letter-spacing: 1px;
+    word-spacing: 18px;
+    cursor: default;
+}
+
+.cover-button {
+    display: flex;
+    height: 51px;
+    width: 256px;
+    border: 1px solid #fff;
+    background: none;
+    justify-content: center;
+}
+
+.button {
+    background: none;
+    color:#fff;
+    font-size: 22px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 100%;
+    border: 0;
+    
+}
+
+.button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 
 
