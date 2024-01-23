@@ -13,26 +13,26 @@
             <nav class="nav">
                 <ul class="nav-bar">
                     <li class="nav-bar-item">
-                        <div class="list-marker list-market-none">
+                        <div class="list-marker list-marker-none">
                             <img src="../images/list_marker.svg" alt=""></div>
-                        <a class="nav-bar-link" href="">Главная</a>
+                        <a class="nav-bar-link" href="#">Главная</a>
                     </li>
                     <li class="nav-bar-item">
                         <div class="list-marker">
                             <img src="../images/list_marker.svg" alt="">
                         </div>
-                        <a class="nav-bar-link" href="">Посмотреть лоты</a>
+                        <a class="nav-bar-link" href="#lots">Посмотреть лоты</a>
                     </li>
                     <li class="nav-bar-item">
                         <div class="list-marker">
                             <img src="../images/list_marker.svg" alt="">
                         </div>
-                        <a class="nav-bar-link" href="">Об аукционе</a>
+                        <a class="nav-bar-link" href="#about">Об аукционе</a>
                     </li>
                 </ul>
             </nav>
             <div class="logo">
-                <img src="../images/logo-black.svg" alt="" class="logo-image">
+                <img src="../images/logo-black.svg" alt="Логотип сайта" class="logo-image">
             </div>
             <div class="info">
                 <span class="contacts contacts-link">+9 999 555 5555</span>
@@ -65,64 +65,51 @@
                     </div>
                 </div><!--   Конец оверлея   -->        
             </section>
-                
-                
-            <section class="lots">
-                <div class="lots-box">
-                    <div class="lots-title">
-                        Лоты
+            <section class="lots" id="lots">
+                <div class="lots-title">
+                    Лоты
+                </div>
+                <div class="lots-cards">
+                    <div class="lots-cards-bg1">
+                            <div class="lots-overlay">
+                                <span class="card-title">
+                                    Фильм режиссёра, который бросил киношколу
+                                </span>
+                                <p class="card-text">
+                                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                                </p>
+                            </div>
                     </div>
-                    <div class="lots-cards">
-                        <div class="lots-cards-box">
-                            <div class="lots-cards-bg">
-                                <div class="lots-overlay">
-                                    <img src=".//images/card-lot-01.jpg" alt="" class="lots-cards-image">
-                                    <span class="card-title">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, soluta.
-                                    </span>
-                                    <p class="card-text">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat assumenda aut nobis earum iure, fugiat provident quisquam itaque distinctio rem?
-                                    </p>
-                                </div>
+                    <div class="lots-cards-bg2">
+                            <div class="lots-overlay">
+                                <span class="card-title">
+                                    Книга, где описан один скучный день из жизни рекламного агента
+                                </span>
+                                <p class="card-text">
+                                    Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                                </p>
                             </div>
-                        </div>
-                        <div class="lots-cards-box">
-                            <div class="lots-cards-bg">
-                                <div class="lots-overlay">
-                                    <img src=".//images/card-lot-02.jpg" alt="" class="lots-cards-image">
-                                    <span class="card-title">
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, soluta.
-                                    </span>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus repellat repudiandae ratione ea amet! Quia praesentium architecto ipsum ea?
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lots-cards-box">
-                            <div class="lots-cards-bg">
-                                <div class="lots-overlay">
-                                    <img src=".//images/card-lot-03.jpg" alt="" class="lots-cards-image">
-                                    <span class="card-title">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, pariatur.
-                                    </span>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem a voluptates unde ipsa suscipit omnis dolore, iusto fugit animi excepturi.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <div class="button-view-more-box">
-                        <button class="button-view-more">
-                            <a href="#" class="button-view-more-link">
-                                Посмотреть больше
-                            </a>
-                        </button>
+                    <div class="lots-cards-bg3">
+                            <div class="lots-overlay">
+                                <span class="card-title">
+                                    Картина, которую повторит даже 5-летний сын маминой подруги
+                                </span>
+                                <p class="card-text">
+                                    Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                                </p>
+                            </div>
                     </div>
                 </div>
+                <div class="button-view-more-box">
+                    <button class="button-view-more">
+                        <a href="#" class="button-view-more-link">
+                            Посмотреть больше
+                        </a>
+                    </button>
+                </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
 
             </section>
         </main>

@@ -28,7 +28,7 @@ body {
     display: flex;
     list-style-position: inside;
     margin-left: 13px;
-    text-decoration: none;
+
     text-transform: lovercase;
 
 }
@@ -40,24 +40,25 @@ body {
     
 }
 
-.list-market-none {
+.list-marker-none {
     display: none;
 }
 
 .nav-bar-link {
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: underline;
     cursor: default;
     text-transform: lowercase;
     
 }
 
 .nav-bar-link:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+    color: #929292;
     transition: .3s ease;
    
 }
+
+
 
 .logo {
     padding-left: 36px;
@@ -195,7 +196,7 @@ body {
     background: #fff;
     color: #000;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: .3s ease;
 }
 
 .button-bet-link {
@@ -207,7 +208,6 @@ body {
     margin-top: 150px;
     
     width: 1052px;
-    background-color: #f89090;
 }
 
 .lots-title {
@@ -221,6 +221,7 @@ body {
 }
 
 .lots-cards {
+    padding-top: 27px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 334px);
@@ -228,12 +229,27 @@ body {
     gap: 25px;
 }
 
-.lots-cards-box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-image: url('.//images/card-lot-02.jpg');
+.lots-cards-bg1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/card-lot-01.jpg');    
 
+}
+
+.lots-cards-bg2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/card-lot-02.jpg');    
+
+}
+
+.lots-cards-bg3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/card-lot-03.jpg');    
 
 }
 
@@ -242,19 +258,62 @@ body {
 
 
 .card-title {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: bold;
     color: #fff;
-    padding-top: 51px;
+    padding: 51px 40px 0 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
 }
 
 
 .lots-overlay {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: rgb(0 0 0 /.6);
+    justify-content: space-between;
 }
 
-.lots-cards-bg {
-    display: flex;
-    width: 100%;
-    position: relative;
+.card-text {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0 40px 48px 40px;
+
+}
+
+.button-view-more-box {
+    background: none;
+
+    height: 25px;
+}
+
+.button-view-more {
+    background: none;
+    border: 0;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+
+.button-view-more-link {
+    color:#000;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    text-transform: lowercase;
+    /* text-decoration: underline; */
+    text-underline-offset: 4px;
+
+}
+
+.button-view-more-link:hover {
+    color: #929292;
+    transition: .3s ease;
 }
