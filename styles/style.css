@@ -1,5 +1,5 @@
-@import url('global.css');
 @import url('fonts.css');
+@import url('global.css');
 
 /*--------------Styles---------------*/
 body {
@@ -49,7 +49,6 @@ body {
     text-decoration: underline;
     cursor: default;
     text-transform: lowercase;
-    
 }
 
 .nav-bar-link:hover {
@@ -65,9 +64,11 @@ body {
     height: 105px;
 }
 
+.logo-link {
+    cursor: default;
+}
 .logo-image {
     height: 100%;
-
 }
 
 .info {
@@ -152,7 +153,7 @@ body {
 
 .bottom-bar {
     display: flex;
-    padding-top: 149px;
+    padding-top: 159px;
     padding-left: 28px;
     justify-content: space-between;
     align-items: center;
@@ -167,7 +168,7 @@ body {
     text-transform: uppercase;
     
     letter-spacing: 1px;
-    word-spacing: 18px;
+    word-spacing: 15px;
     cursor: default;
 }
 
