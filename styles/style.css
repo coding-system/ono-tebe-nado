@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-.nav-bar {
+.nav-bar-top {
     display: flex;
     flex-direction: row;
 }
@@ -71,15 +71,13 @@ body {
     height: 100%;
 }
 
-.info {
+.info-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     margin: 5px 25px 2px auto;
     height: 98px;
-    width: 240px;
-
+    width: 210px;
 }
 
 .contacts {
@@ -322,7 +320,7 @@ body {
 .about {
     margin: 0 auto;
     margin-top: 150px;
-    margin-bottom: 150px;/*Потом убрать. Это для контраста*/
+    
     width: 1052px;
     height: 595px;
 }
@@ -385,4 +383,49 @@ body {
     text-decoration: none;    
     padding-bottom: 24px; 
     padding-right: 5px;                                                              
+}
+
+.footer {
+    display: flex;
+    margin: 150px 50px 88px 50px;
+    justify-content: space-between;
+}
+
+.info-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 5px 25px 2px auto; */
+    height: 98px;
+    width: 240px;
+
+}
+
+.nav-bar-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.social-button {
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    border: 0;;
+    background: none;
+    padding-inline: 0;
+    width: 48px;
+    height: 48px;
+
+    
+
+
 }
