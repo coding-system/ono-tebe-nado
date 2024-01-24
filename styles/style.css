@@ -309,7 +309,7 @@ body {
     font-family: 'Raleway';
     font-weight: normal;
     text-transform: lowercase;
-    /* text-decoration: underline; */
+    text-decoration: underline;
     text-underline-offset: 4px;
 
 }
@@ -317,4 +317,72 @@ body {
 .button-view-more-link:hover {
     color: #929292;
     transition: .3s ease;
+}
+
+.about {
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;/*Потом убрать. Это для контраста*/
+    width: 1052px;
+    height: 595px;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-box-top {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 47px;
+    align-items:center;
+}
+
+.about-box-logo-circle {
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #000;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    
+}
+
+.about-box-logo-img {
+    height: 108px;
+    width: 142px;
+    
+    
+
+}
+
+.about-box-title {
+    padding-left: 72px;
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 28px; /*   28 а не 40, потому что 40 явно больше, чем в макете*/
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.about-box-bottom {
+    width: 100%;   
+    padding-left: 359px;                                                                   
+}
+
+.about-box-text {
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 20px; 
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;    
+    padding-bottom: 24px; 
+    padding-right: 5px;                                                              
 }
