@@ -2,14 +2,14 @@
 @import url("global.css");
 
 body {
-    /* background-color: #9c9c9c; */
+    background-color: #9c9c9c;
 }
 
 /* Header */
 .header {
     display: flex;
     justify-content: space-between;
-    /* background-color: #ffb4b4; */
+    background-color: #ffb4b4;
     margin: 92px 24px 96px 24px;
     padding-left: 26px;
     padding-right: 26px;
@@ -90,6 +90,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../images/cover.jpg');
+    position: relative;
 
 }
 
@@ -97,6 +98,11 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgb(0 0 0 /.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
 }
 
@@ -181,7 +187,7 @@ body {
 /* Main => Lots */
 .lots {
     
-    background-color: #ffb4b4;
+    /* background-color: #ffb4b4; */
     margin: 179px 24px 0 24px;
 }
 
@@ -212,6 +218,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .card-background-1 {
@@ -239,7 +246,8 @@ body {
 }
 
 .card-title-box {
-    padding: 51px 40px 0 40px;
+    padding: 50px 40px 0 40px;
+    z-index: 1;
 }
 
 .card-title {
@@ -250,11 +258,13 @@ body {
     font-weight: 700;
     line-height: 120%; /* 26.4px */
     text-decoration-line: underline;
+    text-underline-offset: 4px;
     text-transform: uppercase;
 }
 
 .card-text-box {
     padding: 0 40px 48px 40px;
+    z-index: 1;
     
 }
 
@@ -265,4 +275,22 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 120%; /* 24px */
+}
+
+.button-view-more {
+    background: none;
+    border: 0;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.button-view-more-link {
+    color:#000;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
 }
