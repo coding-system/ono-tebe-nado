@@ -14,8 +14,7 @@
 .nav-bar {
     display: flex;
     padding-top: 44px;
-    list-style-type: circle;
-    
+    list-style-type: circle; 
 }
 
 .nav-item {
@@ -24,8 +23,6 @@
     text-underline-offset: 4px;
     text-transform: lowercase;
     letter-spacing: 0.2px;
-    
-
 }
 
 .nav-link {
@@ -36,16 +33,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
-
 }
-
-
 
 .main-logo {
     width: 148px;
     height: 105px;
     margin-right: 185px ;
+}
+
+.main-logo-image {
+    height: 100%;
+    width: 100%;
 }
 
 .contacts-bar {
@@ -54,7 +52,6 @@
     width: 210px;
     margin-right: 30px;
     margin-top: 0px;
-    
 }
 
 .contacts-bar-space-fix {
@@ -88,7 +85,6 @@
     background-size: cover;
     background-image: url('../images/cover.jpg');
     position: relative;
-
 }
 
 .overlay {
@@ -100,7 +96,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-
 }
 
 /* Cover title */
@@ -150,7 +145,6 @@
     padding-top: 134px;
     align-items: center;
     padding-left: 78px;
-
 }
 
 .slogan {
@@ -161,7 +155,6 @@
     text-transform: uppercase;
     letter-spacing: 0.4px;
     word-spacing: 16px;
-
 }
 
 .bet-button {
@@ -195,11 +188,9 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-
 }
 
 .cards {
-
     padding-top: 27px;
     display: grid;
     grid-template-columns: repeat(3, 334px);
@@ -217,7 +208,6 @@
 }
 
 .card-background-1 {
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,7 +215,6 @@
 }
 
 .card-background-2 {
-   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,7 +222,6 @@
 }
 
 .card-background-3 {
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,8 +247,7 @@
 
 .card-text-box {
     padding: 0 40px 48px 40px;
-    z-index: 1;
-    
+    z-index: 1;  
 }
 
 .card-text {
@@ -287,21 +274,17 @@
     text-transform: lowercase;
     text-decoration: underline;
     text-underline-offset: 4px;
-
 }
 
 /* Main => About */
 .about {
     padding: 0 24px 0 24px;
     margin-top: 146px;
-
-
 }
 
 .about-box {
     display: flex;
     flex-direction: column;
-
 }
 
 .about-box-main {
@@ -317,22 +300,17 @@
     background-color: #000;
     height: 240px;
     width: 240px;
-    border-radius: 50%;
-    
+    border-radius: 50%; 
 }
 
 .about-box-logo-img {
     height: 114px;
     width: 148px;
     margin: 63px 47px;
-    
-    
-
 }
 
 .about-box-title {
     padding-left: 72px;
-    
 }
 
 .about-title {
@@ -382,7 +360,6 @@
     text-decoration: underline;
     text-underline-offset: 4px;
     text-transform: lowercase;
-
 }
 
 .nav-bar-link {
