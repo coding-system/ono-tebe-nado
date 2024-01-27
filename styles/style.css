@@ -225,7 +225,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 563px;
+    min-height: 563px;
     position: relative;
     z-index: 1;
 }
@@ -371,7 +371,7 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 105px;
+    grid-template-rows: auto;
     margin: 181px 50px 88px 50px;
 }
 
