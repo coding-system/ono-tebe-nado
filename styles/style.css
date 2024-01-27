@@ -196,7 +196,7 @@
 
 /* Main => Lots */
 .lots {
-    margin: 179px 24px 0 24px;
+    margin: 178px 24px 0 24px;
 }
 
 .lots-title {
@@ -211,7 +211,7 @@
 }
 
 .cards {
-    padding-top: 27px;
+    margin-top: 27px;
     display: grid;
     grid-template-columns: repeat(3, 334px);
     grid-template-rows: auto;
@@ -355,7 +355,7 @@
     text-decoration: none;
     line-height: 1, 4;
     letter-spacing: 0.11px;
-    word-spacing: 2,6px;
+    word-spacing: 2, 6px;
     padding-top: 8px;
     padding-bottom: 15px;
 }
@@ -369,7 +369,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 105px;
-    margin: 180px 50px 88px 50px;
+    margin: 181px 50px 88px 50px;
 }
 
 .nav-bar-bottom {
