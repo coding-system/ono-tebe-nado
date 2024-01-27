@@ -1,7 +1,7 @@
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    grid-template-rows: 105px;
+    grid-template-rows: auto;
     margin: 91px 24px 96px 24px;
     padding-left: 26px;
     padding-right: 26px;
@@ -101,7 +101,6 @@
 .main-title-box {
     max-width: 1000px;
     width: 100%;
-    max-height: 355px;
     height: 100%;
     margin: 165px 50px 0 50px;
 }
@@ -114,7 +113,6 @@
 }
 
 .main-title {
-    padding-bottom: 9px;
     color: #fff;
     font-family: Raleway, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -162,7 +160,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 134px;
+    padding-top: 135px;
     align-items: center;
     padding-left: 78px;
 }
@@ -229,26 +227,24 @@
     width: 100%;
     height: 563px;
     position: relative;
+    z-index: 1;
 }
 
-.card-background-left {
+.card-background {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.card-background-left {
     background-image: url("../images/card-lot-01.jpg");
 }
 
 .card-background-center {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-image: url("../images/card-lot-02.jpg");
 }
 
 .card-background-right {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-image: url("../images/card-lot-03.jpg");
 }
 
@@ -284,11 +280,12 @@
     line-height: 120%; /* 24px */
 }
 
-.button-view-more {
-    background: none;
-    border: 0;
+.view-more {
     padding-top: 30px;
     padding-left: 40px;
+}
+
+.view-more-link {
     color: #000;
     font-size: 20px;
     font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -312,7 +309,7 @@
 }
 
 .about-box-main {
-    padding-top: 35px;
+    padding-top: 36px;
     display: flex;
     flex-direction: row;
     padding-left: 47px;
