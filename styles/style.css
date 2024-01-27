@@ -215,7 +215,7 @@
     text-transform: none;
 }
 .cards {
-    margin-top: 28px;
+    margin-top: 29px;
     display: grid;
     grid-template-columns: repeat(3, 334px);
     grid-template-rows: auto;
